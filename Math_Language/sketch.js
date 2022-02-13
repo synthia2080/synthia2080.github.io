@@ -21,6 +21,7 @@ function textToBinary(text){
   }
   
   return fullBinary;
+  
 }
 
 
@@ -67,8 +68,8 @@ function rainFall(){
     if(frameCount >= height*3){
       break;
     }
+    
   }
-  
   
 }
 
@@ -103,11 +104,11 @@ function binaryCircuit(x){
     
   }
   
-  
 }
 
 //alternative binary circuit pattern
 function binaryCircuitAlt(x){
+  
   fill(255);
   textSize(22);
   displacement = random(5,10);
@@ -125,19 +126,21 @@ function binaryCircuitAlt(x){
         
     }
     else if (i >= displacement + 13 && i <= displacement + 15){
+      
         text(displayWord[i], x, y);
         x = x + 10;
         y = y + 22;
+      
       }
     //Handles non-diagonal text
     else{
     
       text(displayWord[i], x, y)
       y = y + 22;
+      
     }
     
   }
-  
   
 }
 
@@ -176,7 +179,6 @@ function binaryCircuitAlt1(x){
     }
     
   }
-  
   
 }
 
@@ -223,9 +225,5 @@ function draw() {
 
   //Effect for the matrix rainfall
   rainFall();
-
-  
-  
-  
 
 }
