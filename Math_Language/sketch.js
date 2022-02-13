@@ -1,4 +1,4 @@
-let wordList = [`Love`, `CyberSpace`, `DarkWeb`, `Enlightenment`, `Soul`, `Humanity`, 'Programmed', 'Augmented', 'Programmed\nSoul', 'Artificial\nIntelligence'];
+let wordList = [`Love`, `Emotion`, `Sadness`, `Enlightenment`, `Soul`, `Humanity`, 'Programmed', 'Augmented', 'Programmed\nSoul', 'Artificial\nIntelligence', 'Empathy', 'Sympathy', 'Happiness', 'Anger', 'Rationality'];
 let displayWord, word0;
 let x;
 let displacement;
